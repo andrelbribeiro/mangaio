@@ -16,7 +16,7 @@ st.markdown(
     </head>
     <body style="margin: 0; overflow: hidden;">
       <!-- Definindo a cena AR -->
-      <a-scene embedded arjs>
+      <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false; trackingMethod: best;">
         <!-- Definir marcador AR para detectar o objeto -->
         <a-marker preset="hiro">
           <!-- Adicionar um mapa ou objeto 3D ao marcador -->
