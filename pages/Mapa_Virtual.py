@@ -1,7 +1,9 @@
 import streamlit as st
 
 # Adiciona o título da página
-st.title('WebAR com A-Frame')
+
+st.title("Mangaio - Uma plataforma educacional colaborativa")
+st.header('WebAR com A-Frame')
 
 # Usando a tag iframe para exibir conteúdo HTML (A-Frame) dentro do Streamlit
 st.markdown(

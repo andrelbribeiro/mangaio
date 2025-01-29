@@ -63,6 +63,8 @@ folium.features.GeoJsonTooltip(fields = ["name"],
 
 #FimTest
 
+st.title("Mangaio - Uma plataforma educacional colaborativa")
+
 mapa_idhm_rj.add_child(highlight)              
 
 st_folium(mapa_idhm_rj, width=700)

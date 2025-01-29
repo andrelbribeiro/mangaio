@@ -1,4 +1,4 @@
 import streamlit as st
 
 
-st.header("Mangaio - Uma plataforma educacional colaborativa")
+st.title("Mangaio - Uma plataforma educacional colaborativa")
