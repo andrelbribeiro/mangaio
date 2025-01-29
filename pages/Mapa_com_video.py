@@ -13,6 +13,8 @@ def get_youtube_embed_url(video_url):
     video_id = video_url.split("v=")[-1]
     return f"https://www.youtube.com/embed/{video_id}"
 
+st.header("Mangaio - Uma plataforma educacional colaborativa")
+
 # Configurar página do Streamlit
 st.set_page_config(page_title="Mapa Interativo com Vídeos e Áudios", layout="wide")
 
